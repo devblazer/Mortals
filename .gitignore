@@ -1,0 +1,8 @@
+node_modules
+*.log
+.idea
+*.idea
+.idea/*
+public/build/*
+private/*
+*.mapgit pu

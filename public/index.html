@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        html,body {
+            margin:0;
+            padding:0;
+            overflow:hidden;
+            position:relative;
+        }
+    </style>
+    <script src="js/require.js"></script>
+<script>
+    require.config({
+        baseUrl: 'js'
+    });
+
+    require(['language/Dialect'], function (Dialect) {
+	    var dialect = 'g';
+	    var d = new Dialect();
+	    d.logSample();
+    });
+</script>
+</head>
+<body touch-action="none">
+</body>
+</html>
